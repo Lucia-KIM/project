@@ -8,7 +8,7 @@
 분석을 위한 데이터 전처리는 파이썬 언어를 사용한 Jupyter notebook환경에서 진행하였으며, 시각화는 Tableau를 사용하였다. 사용한 데이터에 분류와 최종 결과물은 아래 링크 참조
 > [최종결과물 확인!](https://public.tableau.com/profile/.13254526#!/vizhome/_1_16165808190810/1_2) / 
 > [사용데이터 분류 외](https://www.notion.so/5759c624ee96450084a2eebd2bdc7277) /
-> [전처리 소스코드] ()
+> [전처리 소스코드](https://github.com/Lucia-KIM/project/tree/main/%E1%84%89%E1%85%A6%E1%84%8C%E1%85%A9%E1%86%BC%E1%84%89%E1%85%B5_%E1%84%87%E1%85%AE%E1%86%AB%E1%84%89%E1%85%A5%E1%86%A8)
 > 
 
 # 예측 모델링 프로젝트
