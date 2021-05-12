@@ -25,8 +25,8 @@
 > [프로젝트 결과물 확인!](https://nbviewer.jupyter.org/github/Lucia-KIM/project/blob/main/%E1%84%8C%E1%85%AE%E1%84%80%E1%85%A1%E1%84%87%E1%85%AE%E1%86%AB%E1%84%89%E1%85%A5%E1%86%A8/wanted_stock_price_analysis.ipynb)
 
 #### 1) 데이터 정보
-- 데이터는 2274 종목의 568일 간(2018-06-01~2020-09-18)의 주가를 포함하고 있음
-- 익명처리된 Symbol로 기업이 구분되며, Symbol은 알파벳 A와 6자리 숫자로 구성, 오름차순으로 정렬되어 있음
+- 데이터는 2274 종목의 568일 간(2018-06-01~2020-09-18)의 주가를 포함하고 있다.
+- 익명처리된 Symbol로 기업이 구분되며, Symbol은 알파벳 A와 6자리 숫자로 구성, 오름차순으로 정렬되어 있다.
 
 #### 2) 분석 접근 방법
 1. 데이터 살펴보기
@@ -57,8 +57,72 @@
 
 
 
-
+---
+---
 
 
 # [예측 모델링 프로젝트]
+## 1. 미국 성인 인구조사 소득 예측 대회(캐글)
+미국 성인 인구조사 데이터셋을 이용하여 소득이 50K를 넘을지 예측하는 대회이다.
+
+** _본 대회는 캐글코리아에서 주최한 데이터분석 캠프에 참여하여 학습한 내용으로 실제 대회는 아니라는 점을 말씀드립니다._
+
+> [최종 제출결과물](https://gist.github.com/Lucia-KIM/b11709f11f15acce8a94eaa3294e1b42)  /
+> [EDA 내용](https://gist.github.com/Lucia-KIM/1099f2625f7cd98134fa79693534f2b8)
+> > - 사용모델 : XGBoost 
+> > - F1 Score : 0.8717
+
+#### 1) 데이터 정보
+train/test는 다음의 columns으로 구성되어 있고, train은 예측해야 하는 target 값 컬럼 1개를 더 포함하고 있다. 각 데이터가 의미하는 바는 아래와 같다. 
+> - age : 나이
+> - workclass : 고용 형태
+> - fnlwgt : 사람 대표성을 나타내는 가중치 (final weight의 약자)
+> - education : 교육 수준
+> - education_num : 교육 수준 수치
+> - marital_status: 결혼 상태
+> - occupation : 업종
+> - relationship : 가족 관계
+> - race : 인종
+> - sex : 성별
+> - capital_gain : 양도 소득
+> - capital_loss : 양도 손실
+> - hours_per_week : 주당 근무 시간
+> - native_country : 국적
+>> - income : 수익 (예측해야 하는 값)
+
+
+#### 2) Feature engineering 주요 방향
+
+1. fnlwgt
+> - 변수간의 상관관계를 살펴본결과 fnlwgt 변수의 p-value 값이 0.07로 애매함. 
+> - Kmeans기법으로 군집화 시도했으나 유의미한 내용을 찾기 어려웠음. 
+> - 최종적으로 fnlwgt는 drop하기로 함. 
+
+2. Race
+> - 두 그룹으로 분리
+>> * White + Asian-Pac-Islander  == 1
+>> * Black + Amer-Indian-Eskimo + Other == 0
+
+3. capital gain/loss
+> 구간화, 상계처리
+> - (파생변수)capital _gain 0 초과는 1로
+> - (파생변수)capital_loss 1700 이상이면 1로 
+
+4. age
+> - 구간화(20세부터 5세 단위) 20세 이하, 65세 이상 카테고리화
+
+5. education_num : scale(minmax) 
+> - (파생변수)13 이상으로 변수 추가 (hight_education) 1로
+
+6. hours_per_week : scale(minmax) 
+> - (파생변수)주당 50시간 이상 근로 여부를 가진 변수 추가 1로
+
+7. marital_status
+> - Married-civ-spouse와 나머지는 묶기
+>> * 참고] Married-spouse-absent : 배우자가 현지에 없는 경우 / 
+>> Married-AF-spouse : 기혼이나 배우자 군인으로 동거하지 않는 경우
+
+
+
+
 
