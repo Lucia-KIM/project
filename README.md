@@ -28,7 +28,7 @@
 ---
 ## 2.공유 주차장 앱 이용자 분석
 분석목표 : 이용자 별 결제 이력 분석을 통한 마케팅 포인트 도출
-> [분석 최종 코드]() / [분석 결과 Insight & Action Plan]()
+> [분석 최종 코드](https://github.com/Lucia-KIM/project/blob/main/%EA%B3%B5%EC%9C%A0%EC%A3%BC%EC%B0%A8%EC%9E%A5%20%EA%B8%B0%EC%97%85%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EB%B6%84%EC%84%9D/Final_code_Marketing.ipynb) / [분석 결과 Insight & Action Plan](https://github.com/Lucia-KIM/project/blob/main/%EA%B3%B5%EC%9C%A0%EC%A3%BC%EC%B0%A8%EC%9E%A5%20%EA%B8%B0%EC%97%85%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EB%B6%84%EC%84%9D/Data%20Analysis%20Insight_Marketing_1.pdf)
 
 #### 1)데이터정보
 - 데이터 수 : 약 879천여 건의 결제 데이터
