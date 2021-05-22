@@ -2,7 +2,7 @@
 
 ## 1. 패션 상품 구매 데이터 분석을 통한 브랜드 및 고객 분석
 분석 목표 : 신규 구매 전반 분석 및 결과 도식화
-> [프로젝트 최종 결과물(분석 인사이트 및 전략)]() / 데이터분석 최종코드([Stpe1]()/[Stpe2]()/[Stpe3]())
+> [프로젝트 최종 결과물(분석 인사이트 및 전략)](https://github.com/Lucia-KIM/project/blob/main/%ED%8C%A8%EC%85%98%EA%B8%B0%EC%97%85%20%EA%B5%AC%EB%A7%A4%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EB%B6%84%EC%84%9D/%E1%84%83%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%90%E1%85%A5%E1%84%87%E1%85%AE%E1%86%AB%E1%84%89%E1%85%A5%E1%86%A8%E1%84%8B%E1%85%B3%E1%86%AF%20%E1%84%90%E1%85%A9%E1%86%BC%E1%84%92%E1%85%A1%E1%86%AB%20%E1%84%8B%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%90%E1%85%B3%E1%84%86%E1%85%B5%E1%86%BE%20%E1%84%8C%E1%85%A5%E1%86%AB%E1%84%85%E1%85%A3%E1%86%A8.pdf) / 데이터분석 최종코드([Stpe1](https://nbviewer.jupyter.org/github/Lucia-KIM/project/blob/main/%ED%8C%A8%EC%85%98%EA%B8%B0%EC%97%85%20%EA%B5%AC%EB%A7%A4%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EB%B6%84%EC%84%9D/STEP1_Final_Version.ipynb)/[Stpe2](https://nbviewer.jupyter.org/github/Lucia-KIM/project/blob/main/%ED%8C%A8%EC%85%98%EA%B8%B0%EC%97%85%20%EA%B5%AC%EB%A7%A4%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EB%B6%84%EC%84%9D/STPE2_Final_Version.ipynb)/[Stpe3](https://nbviewer.jupyter.org/github/Lucia-KIM/project/blob/main/%ED%8C%A8%EC%85%98%EA%B8%B0%EC%97%85%20%EA%B5%AC%EB%A7%A4%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EB%B6%84%EC%84%9D/STEP3_Final_Version.ipynb))
 
 ** _본 프로젝트는 원티드 프리온보딩 코스에서 데이터를 제공받았으며, 5명의 팀원들과 함께 작업한 내용입니다._
 
