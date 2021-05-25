@@ -71,7 +71,7 @@
 ## 4. 주식가격 분석하기
 분석 목표 : 익명화된 2274 기업의 주가 데이터를 가지고 나름의 방식으로 데이터 살펴보기
 
-> [프로젝트 결과물 확인!](https://nbviewer.jupyter.org/github/Lucia-KIM/project/blob/main/%E1%84%8C%E1%85%AE%E1%84%80%E1%85%A1%E1%84%87%E1%85%AE%E1%86%AB%E1%84%89%E1%85%A5%E1%86%A8/wanted_stock_price_analysis.ipynb)
+> [프로젝트 결과물 확인](https://nbviewer.jupyter.org/github/Lucia-KIM/project/blob/main/%E1%84%8C%E1%85%AE%E1%84%80%E1%85%A1%E1%84%87%E1%85%AE%E1%86%AB%E1%84%89%E1%85%A5%E1%86%A8/wanted_stock_price_analysis.ipynb)
 
 #### 1) 데이터 정보
 - 2274 종목의 568일 간(2018-06-01~2020-09-18)의 주가 데이터
@@ -94,7 +94,7 @@
 ## 5. 세종시 인구 및 부동산 데이터 분석
 해당 프로젝트는 한국토지주택공사의 도시데이터 분석 대회 COMPAS에서 제공하는 데이터를 활용하여 진행하였음
 
-> [Tableau 최종결과물 확인!](https://public.tableau.com/profile/.13254526#!/vizhome/_1_16165808190810/1_2) / 
+> [Tableau 최종결과물 확인](https://public.tableau.com/profile/.13254526#!/vizhome/_1_16165808190810/1_2) / 
 > [사용데이터 분류 외](https://www.notion.so/5759c624ee96450084a2eebd2bdc7277) /
 > [전처리 소스코드](https://github.com/Lucia-KIM/project/tree/main/%E1%84%89%E1%85%A6%E1%84%8C%E1%85%A9%E1%86%BC%E1%84%89%E1%85%B5_%E1%84%87%E1%85%AE%E1%86%AB%E1%84%89%E1%85%A5%E1%86%A8)
 
@@ -121,8 +121,8 @@
 
 
 **모델링 최종 SCORE**
- - mse(lightgbm모델 사용) : 0.26355187894719134
- - mae(lightgbm모델 사용) : 0.10392207522470769
+ - MSE(Lightgbm모델 사용) : 0.26355187894719134
+ - MAE(Lightgbm모델 사용) : 0.10392207522470769
 
 ** _본 프로젝트는 원티드 프리온보딩 코스에서 데이터를 제공받았으며, 5명의 팀원들과 함께 작업한 내용입니다._ 
 
@@ -185,7 +185,28 @@ Train/Test 데이터는 다음의 columns으로 구성되어 있고, train은 �
 5. education_num / hours_per_week : scale(minmax) 
 6. marital_status : 배우자와 동거중인 상태 여부로 그룹을 묶어서 정리 
 
+---
 
+## 3. 거시경제지표를 활용한 서울 아파트 실거래가지수 예측
+프로젝트 목표 : 머신러닝과 딥러닝을 활용한 부동산 가격 예측모형 개발
+- 선행연구에서 사용된 통계적분석방법의 한계를 보완하기 위한 머신러닝, 딥러닝 예측모형 개발
+
+>[최종 결과물 확인](https://github.com/Lucia-KIM/project/blob/main/%EC%95%84%ED%8C%8C%ED%8A%B8%EC%8B%A4%EA%B1%B0%EB%9E%98%EA%B0%80%EC%A7%80%EC%88%98%20%EC%98%88%EC%B8%A1%20%EB%AA%A8%EB%8D%B8%EB%A7%81/Final_%E1%84%8E%E1%85%AC%E1%84%8C%E1%85%A9%E1%86%BC%E1%84%80%E1%85%A7%E1%86%AF%E1%84%80%E1%85%AA.pdf) / [각 모델별 코드 확인](https://github.com/Lucia-KIM/project/tree/main/%EC%95%84%ED%8C%8C%ED%8A%B8%EC%8B%A4%EA%B1%B0%EB%9E%98%EA%B0%80%EC%A7%80%EC%88%98%20%EC%98%88%EC%B8%A1%20%EB%AA%A8%EB%8D%B8%EB%A7%81)
+
+** _본 프로젝트는 데이터 분석가 양성 교육 기관에서 6명의 팀원들과 함께 작업한 내용입니다. (팀명 : UNICON)_
+
+#### 1) 프로젝트 진행 방향
+- 2015.01 ~ 2019.12까지 5년 간 서울시 아파트 실거래가지수와 30개의 거시경제지표를 활용해 서울시 아파트 실거래가 예측
+- 30개의 거시경제지표 중 서울시 아파트 실거래가지수와 상관도가 높은 변수 추출 및 PCA를 통한 차원 축소
+- 관련 선행연구 스터디를 통한 사용 모델 선정
+- 머신러닝과 딥러닝의 회귀모형을 모델링하고, 검증과 튜닝을 반복해 높은 예측률 도출
+
+#### 2) 사용 모델
+1. Support Vector Regression
+2. Random Forest
+3. Gradient Boosting
+4. LSTM
+5. Dual Attention Mechanism
 
 
 
