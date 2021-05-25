@@ -1,0 +1,23 @@
+- 가공 전 데이터data(eng).csv	## 30개 변수 데이터
+
+
+data_fix.ipynb를 사용하여 상관성 분석, 변수(30->22개 선정)
+## 선정 기준 :  상관성 분석시, 0.5이상 or -0.5이하의 상관성을 가지는 columns를 선정.
+
+
+
+- 가공 후 데이터 : df_dn_final.csv	## 22개 변수(상관분석 후 정제) 데이터
+
+ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ
+- df_dn_final에서 기간1, 기간2을 기준으로	## 기간 분할 데이터
+  data_1, data_2 분할생성	
+
+SVR
+Random Forest
+Gradient Boosting
+LSTM
+기법 : data_1, data_2 그대로 import
+===============================================================
+Attention 
+기법 :  data_1, data_2에 대한 date columns 삭제된 데이터 자체 import
+
