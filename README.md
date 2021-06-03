@@ -34,7 +34,7 @@
 ---
 ## 2.공유 주차장 앱 이용자 분석 (기업 실데이터 사용)
 분석 목표 : 이용자 별 결제 이력 분석을 통한 마케팅 포인트 도출
-> [분석 최종 코드](https://nbviewer.jupyter.org/github/Lucia-KIM/project/blob/70b62e5a7b4737802f17d2c772c2d605ec487424/%EA%B3%B5%EC%9C%A0%EC%A3%BC%EC%B0%A8%EC%9E%A5%20%EA%B8%B0%EC%97%85%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EB%B6%84%EC%84%9D/Final_code_Marketing.ipynb) / [분석 결과 Insight & Action Plan](https://github.com/Lucia-KIM/project/blob/main/%EA%B3%B5%EC%9C%A0%EC%A3%BC%EC%B0%A8%EC%9E%A5%20%EA%B8%B0%EC%97%85%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EB%B6%84%EC%84%9D/Data%20Analysis%20Insight_Marketing.pdf)
+> [분석 최종 코드](https://nbviewer.jupyter.org/github/Lucia-KIM/project/blob/70b62e5a7b4737802f17d2c772c2d605ec487424/%EA%B3%B5%EC%9C%A0%EC%A3%BC%EC%B0%A8%EC%9E%A5%20%EA%B8%B0%EC%97%85%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EB%B6%84%EC%84%9D/Final_code_Marketing.ipynb) / [분석 결과 Insight & Action Plan](https://github.com/Lucia-KIM/project/blob/main/%EA%B3%B5%EC%9C%A0%EC%A3%BC%EC%B0%A8%EC%9E%A5%20%EA%B8%B0%EC%97%85%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EB%B6%84%EC%84%9D/Data%20Analysis%20Insight_Marketing_1.pdf)
 
 ** _본 프로젝트는 원티드 프리온보딩 코스에서 데이터를 제공받았으며, 5명의 팀원들과 함께 작업한 내용입니다._
 
