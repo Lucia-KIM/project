@@ -123,7 +123,7 @@
 ## 1. 공유주차장 앱 이용자 수요예측 모델링 (기업 실데이터 사용)
 프로젝트 목표 : 공유 주차장 앱 유저별 한달간 이용건수 예측 (Regression)
 
-> [모델링 최종 코드 확인](https://github.com/Lucia-KIM/project/blob/main/%EA%B3%B5%EC%9C%A0%EC%A3%BC%EC%B0%A8%EC%9E%A5%20%EA%B8%B0%EC%97%85%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EB%B6%84%EC%84%9D/Modeling_demand_forecasting.ipynb)
+> [모델링 최종 코드 확인](https://nbviewer.jupyter.org/github/Lucia-KIM/project/blob/bfc6448f8f7e0868431cd56df8f9b9ced17b7525/%EA%B3%B5%EC%9C%A0%EC%A3%BC%EC%B0%A8%EC%9E%A5%20%EA%B8%B0%EC%97%85%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EB%B6%84%EC%84%9D/Modeling_demand_forecasting.ipynb)
 
 
 **모델링 최종 SCORE**
